@@ -32,6 +32,24 @@ ul li {
   border-bottom: 2px solid #efefef;
   padding-bottom: 0.5em;
   margin-bottom: 1em;
+  position: relative;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #444;
+}
+ul li a b {
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 1.8em;
+  font-weight: 100;
+  color: #c0c0c0;
+}
+ul li a:hover b {
+  visibility: visible;
 }
 
 #buckets {

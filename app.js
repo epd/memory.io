@@ -14,8 +14,9 @@ $(function() {
    window.BucketView = Backbone.View.extend({
      tagName: "li",
      render: function() {
-       var title = this.model.get('title');
-       $(this.el).html(title);
+       var title = this.model.get('title') + "<b>&rarr;</b>";
+       var link = '<a href="javascript:void(0);">' + title + '</a>';
+       $(this.el).html(link);
        return this;
      },
    });
