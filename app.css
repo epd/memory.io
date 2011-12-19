@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 62.5%;
+  color: #111;
+  margin: 4.4%;
+}
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+}
+h1 i {
+  color: #bada55;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 15px;
+  border: 3px solid #efefef;
+  border-radius: 3px;
+  display: block;
+  width: 92%;
+}
+
+ul {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 1.5em 0 0;
+}
+ul li {
+  border-bottom: 2px solid #efefef;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+#buckets {
+  width: 25%;
+  min-width: 24em;
+  margin-top: 4em;
+}
+
+#buckets h1 {
+  border-bottom: 2px solid #efefef;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-style: italic;
+  font-family: serif;
+}
