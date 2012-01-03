@@ -40,29 +40,31 @@ ul li a {
   text-decoration: none;
   color: #444;
 }
-ul li a b {
+ul li a:after {
+  content: "x";
   visibility: hidden;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  font-size: 1.8em;
+  right: 0.4em;
+  bottom: 0.4em;
+  font-size: 1.2em;
   font-weight: 100;
   color: #c0c0c0;
 }
 ul li a:hover {
   border-color: #c0c0c0;
 }
-ul li a:hover b {
+ul li a:hover:after{
   visibility: visible;
 }
 
-#buckets {
+section {
   width: 25%;
   min-width: 24em;
-  margin-top: 4em;
+  margin: 4em 4em 0 0;
+  float: left;
 }
 
-#buckets h1 {
+section h1 {
   border-bottom: 2px solid #efefef;
   padding-bottom: 0.5em;
   margin-bottom: 1em;
